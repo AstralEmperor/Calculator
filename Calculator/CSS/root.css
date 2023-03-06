@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+:root{
+    --white:255,255,255;
+    --black:000,000,000;
+    --lightGray:#717f8b;
+    --lighterGray:rgb(126, 141, 155);
+    --light:#d4d4d4;
+    --darkGray:#474747;
+    --darkestGray:#363636;
+    --blue:#678299;
+    --darkblue:#01436e;
+    --screenBlue:2, 72, 119;
+    --veryDarkBlue:#022f4d;
+    --redish:#8f3e3e;
+    --darkred:#520606;
+    --veryDarkRed:#360404;
+    --numClr:#a1a1a1;
+    --something:#6e6e6e;
+    --veryDarkSomething:#535353;
+}

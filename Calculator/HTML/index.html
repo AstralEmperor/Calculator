@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/root.css">
+    <title>Custom Calculator</title>
+</head>
+<body>
+    <section class="calculator">
+        <div class="calculator__body">
+            <div class="calculator__hole"></div>
+            <hr>
+            <h3>Lords Calculator</h3>
+            <div id="calculator__result-view" class="calculator__result-view"></div>
+            <table class="">
+                <tbody>
+                    <!--ROW-1-->
+                    <tr>
+                        <td class="redish td--1" onclick="clearInput()">AC</td>
+                        <td class="redish td--2" onclick="eraseNum()">C</td>
+                        <td class="function td--3" onclick="insertNum('/')">/</td>
+                        <td class="function td--4" onclick="insertNum('*')">*</td>
+                    </tr>
+                    <!--ROW-2-->
+                    <tr>
+                        <td class="number td--5" onclick="insertNum(7)">7</td>
+                        <td class="number td--6" onclick="insertNum(8)">8</td>
+                        <td class="number td--7" onclick="insertNum(9)">9</td>
+                        <td class="function td--8" onclick="insertNum('-')">-</td>
+                    </tr>
+                    <!--ROW-3-->
+                    <tr>
+                        <td class="number td--9" onclick="insertNum(4)">4</td>
+                        <td class="number td--10" onclick="insertNum(5)">5</td>
+                        <td class="number td--11" onclick="insertNum(6)">6</td>
+                        <td class="function td--12" onclick="insertNum('+')">+</td>
+                    </tr>
+                     <!--ROW-4-->
+                     <tr>
+                        <td class="number td--13" onclick="insertNum(1)">1</td>
+                        <td class="number td--14" onclick="insertNum(2)">2</td>
+                        <td class="number td--15" onclick="insertNum(3)">3</td>
+                        <td rowspan="2" class="function td--16" onclick="equalTo('=')">=</td>
+                    </tr>
+                     <!--ROW-5-->
+                     <tr>
+                        <td colspan="2" class="number td--17" onclick="insertNum(0)">0</td>
+                        <td class="function td--18" onclick="insertNum('.')">.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="../JS/index.js"></script>
+</body>
+</html>
